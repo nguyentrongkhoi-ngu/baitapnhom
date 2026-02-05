@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Liên hệ - Thông tin nhóm 13</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 35px;
+            font-size: 15px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-bottom: 15px;
+            border-left: 5px solid #6c5ce7;
+            padding-left: 12px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        ul li {
+            background: #f8f9fb;
+            padding: 16px 18px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #2d3436;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        ul li:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #636e72;
+        }
+
+        .footer span {
+            color: #6c5ce7;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>THÔNG TIN NHÓM</h1>
+        <div class="subtitle">Giới thiệu thành viên & thông tin liên hệ</div>
+
+        <h2>Nhóm 13</h2>
+
+        <h2>Danh sách thành viên</h2>
+        <ul>
+            <li>Nguyễn Trường An</li>
+            <li>Nguyễn Trọng Khôi</li>
+            <li>Dương Văn Huy</li>
+            <li>Nguyễn Trà Duy Đạt</li>
+            <li>Lê Ngọc Vũ</li>
+        </ul>
+
+        <div class="footer">
+            © 2026 — <span>Nhóm 13</span>
+        </div>
+    </div>
+
+</body>
+</html>
